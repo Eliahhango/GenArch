@@ -1,0 +1,364 @@
+{
+  "project": {
+    "name": "10x8m Rectangular House",
+    "floors": [
+      {
+        "index": 0,
+        "name": "Ground Floor",
+        "height_mm": 3000.0
+      }
+    ]
+  },
+  "outer_walls": [
+    {
+      "start": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "end": {
+        "x": 10000.0,
+        "y": 0.0
+      },
+      "height_mm": 3000.0,
+      "thickness_mm": 300.0,
+      "z_mm": 0.0,
+      "reference_line": "center"
+    },
+    {
+      "start": {
+        "x": 10000.0,
+        "y": 0.0
+      },
+      "end": {
+        "x": 10000.0,
+        "y": 8000.0
+      },
+      "height_mm": 3000.0,
+      "thickness_mm": 300.0,
+      "z_mm": 0.0,
+      "reference_line": "center"
+    },
+    {
+      "start": {
+        "x": 10000.0,
+        "y": 8000.0
+      },
+      "end": {
+        "x": 0.0,
+        "y": 8000.0
+      },
+      "height_mm": 3000.0,
+      "thickness_mm": 300.0,
+      "z_mm": 0.0,
+      "reference_line": "center"
+    },
+    {
+      "start": {
+        "x": 0.0,
+        "y": 8000.0
+      },
+      "end": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "height_mm": 3000.0,
+      "thickness_mm": 300.0,
+      "z_mm": 0.0,
+      "reference_line": "center"
+    }
+  ],
+  "inner_walls": [
+    {
+      "start": {
+        "x": 5000.0,
+        "y": 0.0
+      },
+      "end": {
+        "x": 5000.0,
+        "y": 4000.0
+      },
+      "height_mm": 3000.0,
+      "thickness_mm": 120.0,
+      "z_mm": 0.0,
+      "reference_line": "center"
+    },
+    {
+      "start": {
+        "x": 5000.0,
+        "y": 4000.0
+      },
+      "end": {
+        "x": 10000.0,
+        "y": 4000.0
+      },
+      "height_mm": 3000.0,
+      "thickness_mm": 120.0,
+      "z_mm": 0.0,
+      "reference_line": "center"
+    }
+  ],
+  "doors": [
+    {
+      "wall_index": 0,
+      "position_mm": 5000.0,
+      "width_mm": 900.0,
+      "height_mm": 2100.0,
+      "sill_height_mm": 0.0
+    }
+  ],
+  "windows": [
+    {
+      "wall_index": 1,
+      "position_mm": 2000.0,
+      "width_mm": 1200.0,
+      "height_mm": 1500.0,
+      "sill_height_mm": 900.0
+    },
+    {
+      "wall_index": 1,
+      "position_mm": 6000.0,
+      "width_mm": 1200.0,
+      "height_mm": 1500.0,
+      "sill_height_mm": 900.0
+    }
+  ],
+  "slabs": [
+    {
+      "floor_index": 0,
+      "polygon": [
+        {
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "x": 10000.0,
+          "y": 0.0
+        },
+        {
+          "x": 10000.0,
+          "y": 8000.0
+        },
+        {
+          "x": 0.0,
+          "y": 8000.0
+        }
+      ],
+      "thickness_mm": 150.0,
+      "z_mm": 0.0
+    }
+  ],
+  "columns": [
+    {
+      "position": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "height_mm": 3000.0,
+      "width_mm": 300.0,
+      "depth_mm": 300.0,
+      "z_mm": 0.0
+    },
+    {
+      "position": {
+        "x": 10000.0,
+        "y": 0.0
+      },
+      "height_mm": 3000.0,
+      "width_mm": 300.0,
+      "depth_mm": 300.0,
+      "z_mm": 0.0
+    },
+    {
+      "position": {
+        "x": 10000.0,
+        "y": 8000.0
+      },
+      "height_mm": 3000.0,
+      "width_mm": 300.0,
+      "depth_mm": 300.0,
+      "z_mm": 0.0
+    },
+    {
+      "position": {
+        "x": 0.0,
+        "y": 8000.0
+      },
+      "height_mm": 3000.0,
+      "width_mm": 300.0,
+      "depth_mm": 300.0,
+      "z_mm": 0.0
+    }
+  ],
+  "beams": [],
+  "roofs": [
+    {
+      "floor_index": 1,
+      "polygon": [
+        {
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "x": 10000.0,
+          "y": 0.0
+        },
+        {
+          "x": 10000.0,
+          "y": 8000.0
+        },
+        {
+          "x": 0.0,
+          "y": 8000.0
+        }
+      ],
+      "angle_deg": 30.0,
+      "thickness_mm": 300.0,
+      "roof_type": "gable",
+      "z_mm": 3000.0
+    }
+  ],
+  "zones": [
+    {
+      "floor_index": 0,
+      "polygon": [
+        {
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "x": 5000.0,
+          "y": 0.0
+        },
+        {
+          "x": 5000.0,
+          "y": 4000.0
+        },
+        {
+          "x": 0.0,
+          "y": 4000.0
+        }
+      ],
+      "room_name": "Bedroom 1",
+      "room_number": "BR1"
+    },
+    {
+      "floor_index": 0,
+      "polygon": [
+        {
+          "x": 5000.0,
+          "y": 0.0
+        },
+        {
+          "x": 10000.0,
+          "y": 0.0
+        },
+        {
+          "x": 10000.0,
+          "y": 4000.0
+        },
+        {
+          "x": 5000.0,
+          "y": 4000.0
+        }
+      ],
+      "room_name": "Bedroom 2",
+      "room_number": "BR2"
+    },
+    {
+      "floor_index": 0,
+      "polygon": [
+        {
+          "x": 0.0,
+          "y": 4000.0
+        },
+        {
+          "x": 10000.0,
+          "y": 4000.0
+        },
+        {
+          "x": 10000.0,
+          "y": 8000.0
+        },
+        {
+          "x": 0.0,
+          "y": 8000.0
+        }
+      ],
+      "room_name": "Bathroom",
+      "room_number": "BATH"
+    }
+  ],
+  "dimensions": [
+    {
+      "dim_type": "linear",
+      "points": [
+        {
+          "x": 0.0,
+          "y": -1000.0
+        },
+        {
+          "x": 10000.0,
+          "y": -1000.0
+        }
+      ],
+      "offset_mm": 500.0
+    },
+    {
+      "dim_type": "linear",
+      "points": [
+        {
+          "x": -1000.0,
+          "y": 0.0
+        },
+        {
+          "x": -1000.0,
+          "y": 8000.0
+        }
+      ],
+      "offset_mm": 500.0
+    },
+    {
+      "dim_type": "linear",
+      "points": [
+        {
+          "x": 0.0,
+          "y": 2000.0
+        },
+        {
+          "x": 5000.0,
+          "y": 2000.0
+        }
+      ],
+      "offset_mm": 500.0
+    },
+    {
+      "dim_type": "linear",
+      "points": [
+        {
+          "x": 5000.0,
+          "y": 2000.0
+        },
+        {
+          "x": 10000.0,
+          "y": 2000.0
+        }
+      ],
+      "offset_mm": 500.0
+    },
+    {
+      "dim_type": "linear",
+      "points": [
+        {
+          "x": 5000.0,
+          "y": 6000.0
+        },
+        {
+          "x": 10000.0,
+          "y": 6000.0
+        }
+      ],
+      "offset_mm": 500.0
+    }
+  ],
+  "objects": []
+}

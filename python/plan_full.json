@@ -1,0 +1,2163 @@
+{
+  "project": {
+    "name": "Modern Family Home",
+    "description": "Contemporary two-story family home with open-plan living, garage, and full interior design.",
+    "style": "contemporary",
+    "floors": [
+      {
+        "index": 0,
+        "name": "Ground Floor",
+        "height_mm": 3000.0,
+        "outer_walls": [
+          {
+            "start": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "end": {
+              "x": 18000.0,
+              "y": 0.0
+            },
+            "height_mm": 3000.0,
+            "thickness_mm": 300.0,
+            "z_mm": 0.0,
+            "floor_index": 0,
+            "reference_line": "center",
+            "building_material": "Brick - Common",
+            "composite": "",
+            "exterior_surface": "Brick - External",
+            "interior_surface": "Paint - White"
+          },
+          {
+            "start": {
+              "x": 18000.0,
+              "y": 0.0
+            },
+            "end": {
+              "x": 18000.0,
+              "y": 12000.0
+            },
+            "height_mm": 3000.0,
+            "thickness_mm": 300.0,
+            "z_mm": 0.0,
+            "floor_index": 0,
+            "reference_line": "center",
+            "building_material": "Brick - Common",
+            "composite": "",
+            "exterior_surface": "Brick - External",
+            "interior_surface": "Paint - White"
+          },
+          {
+            "start": {
+              "x": 18000.0,
+              "y": 12000.0
+            },
+            "end": {
+              "x": 0.0,
+              "y": 12000.0
+            },
+            "height_mm": 3000.0,
+            "thickness_mm": 300.0,
+            "z_mm": 0.0,
+            "floor_index": 0,
+            "reference_line": "center",
+            "building_material": "Brick - Common",
+            "composite": "",
+            "exterior_surface": "Brick - External",
+            "interior_surface": "Paint - White"
+          },
+          {
+            "start": {
+              "x": 0.0,
+              "y": 12000.0
+            },
+            "end": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "height_mm": 3000.0,
+            "thickness_mm": 300.0,
+            "z_mm": 0.0,
+            "floor_index": 0,
+            "reference_line": "center",
+            "building_material": "Brick - Common",
+            "composite": "",
+            "exterior_surface": "Brick - External",
+            "interior_surface": "Paint - White"
+          }
+        ],
+        "inner_walls": [
+          {
+            "start": {
+              "x": 12000.0,
+              "y": 0.0
+            },
+            "end": {
+              "x": 12000.0,
+              "y": 4000.0
+            },
+            "height_mm": 3000.0,
+            "thickness_mm": 120.0,
+            "z_mm": 0.0,
+            "floor_index": 0,
+            "reference_line": "center",
+            "building_material": "Concrete - Structural",
+            "composite": "",
+            "exterior_surface": "",
+            "interior_surface": "Paint - White"
+          },
+          {
+            "start": {
+              "x": 12000.0,
+              "y": 4000.0
+            },
+            "end": {
+              "x": 18000.0,
+              "y": 4000.0
+            },
+            "height_mm": 3000.0,
+            "thickness_mm": 120.0,
+            "z_mm": 0.0,
+            "floor_index": 0,
+            "reference_line": "center",
+            "building_material": "Concrete - Structural",
+            "composite": "",
+            "exterior_surface": "",
+            "interior_surface": "Paint - White"
+          },
+          {
+            "start": {
+              "x": 12000.0,
+              "y": 4000.0
+            },
+            "end": {
+              "x": 12000.0,
+              "y": 8000.0
+            },
+            "height_mm": 3000.0,
+            "thickness_mm": 120.0,
+            "z_mm": 0.0,
+            "floor_index": 0,
+            "reference_line": "center",
+            "building_material": "Concrete - Structural",
+            "composite": "",
+            "exterior_surface": "",
+            "interior_surface": "Paint - White"
+          },
+          {
+            "start": {
+              "x": 12000.0,
+              "y": 8000.0
+            },
+            "end": {
+              "x": 18000.0,
+              "y": 8000.0
+            },
+            "height_mm": 3000.0,
+            "thickness_mm": 120.0,
+            "z_mm": 0.0,
+            "floor_index": 0,
+            "reference_line": "center",
+            "building_material": "Concrete - Structural",
+            "composite": "",
+            "exterior_surface": "",
+            "interior_surface": "Paint - White"
+          },
+          {
+            "start": {
+              "x": 12000.0,
+              "y": 8000.0
+            },
+            "end": {
+              "x": 12000.0,
+              "y": 12000.0
+            },
+            "height_mm": 3000.0,
+            "thickness_mm": 120.0,
+            "z_mm": 0.0,
+            "floor_index": 0,
+            "reference_line": "center",
+            "building_material": "Concrete - Structural",
+            "composite": "",
+            "exterior_surface": "",
+            "interior_surface": "Paint - White"
+          },
+          {
+            "start": {
+              "x": 6000.0,
+              "y": 0.0
+            },
+            "end": {
+              "x": 6000.0,
+              "y": 4000.0
+            },
+            "height_mm": 3000.0,
+            "thickness_mm": 120.0,
+            "z_mm": 0.0,
+            "floor_index": 0,
+            "reference_line": "center",
+            "building_material": "Concrete - Structural",
+            "composite": "",
+            "exterior_surface": "",
+            "interior_surface": "Paint - White"
+          },
+          {
+            "start": {
+              "x": 6000.0,
+              "y": 4000.0
+            },
+            "end": {
+              "x": 0.0,
+              "y": 4000.0
+            },
+            "height_mm": 3000.0,
+            "thickness_mm": 120.0,
+            "z_mm": 0.0,
+            "floor_index": 0,
+            "reference_line": "center",
+            "building_material": "Concrete - Structural",
+            "composite": "",
+            "exterior_surface": "",
+            "interior_surface": "Paint - White"
+          },
+          {
+            "start": {
+              "x": 6000.0,
+              "y": 4000.0
+            },
+            "end": {
+              "x": 6000.0,
+              "y": 8000.0
+            },
+            "height_mm": 3000.0,
+            "thickness_mm": 120.0,
+            "z_mm": 0.0,
+            "floor_index": 0,
+            "reference_line": "center",
+            "building_material": "Concrete - Structural",
+            "composite": "",
+            "exterior_surface": "",
+            "interior_surface": "Paint - White"
+          },
+          {
+            "start": {
+              "x": 6000.0,
+              "y": 8000.0
+            },
+            "end": {
+              "x": 0.0,
+              "y": 8000.0
+            },
+            "height_mm": 3000.0,
+            "thickness_mm": 120.0,
+            "z_mm": 0.0,
+            "floor_index": 0,
+            "reference_line": "center",
+            "building_material": "Concrete - Structural",
+            "composite": "",
+            "exterior_surface": "",
+            "interior_surface": "Paint - White"
+          },
+          {
+            "start": {
+              "x": 6000.0,
+              "y": 8000.0
+            },
+            "end": {
+              "x": 6000.0,
+              "y": 12000.0
+            },
+            "height_mm": 3000.0,
+            "thickness_mm": 120.0,
+            "z_mm": 0.0,
+            "floor_index": 0,
+            "reference_line": "center",
+            "building_material": "Concrete - Structural",
+            "composite": "",
+            "exterior_surface": "",
+            "interior_surface": "Paint - White"
+          }
+        ],
+        "doors": [
+          {
+            "wall_index": 0,
+            "wall_type": "outer",
+            "position_mm": 9000.0,
+            "width_mm": 900.0,
+            "height_mm": 2100.0,
+            "sill_height_mm": 0.0,
+            "door_type": "Hinged Single",
+            "material_name": "Metal - Aluminium"
+          },
+          {
+            "wall_index": 1,
+            "wall_type": "outer",
+            "position_mm": 2000.0,
+            "width_mm": 900.0,
+            "height_mm": 2100.0,
+            "sill_height_mm": 0.0,
+            "door_type": "Hinged Single",
+            "material_name": "Metal - Aluminium"
+          },
+          {
+            "wall_index": 0,
+            "wall_type": "inner",
+            "position_mm": 2000.0,
+            "width_mm": 900.0,
+            "height_mm": 2100.0,
+            "sill_height_mm": 0.0,
+            "door_type": "Hinged Single",
+            "material_name": "Metal - Aluminium"
+          },
+          {
+            "wall_index": 1,
+            "wall_type": "inner",
+            "position_mm": 2000.0,
+            "width_mm": 900.0,
+            "height_mm": 2100.0,
+            "sill_height_mm": 0.0,
+            "door_type": "Hinged Single",
+            "material_name": "Metal - Aluminium"
+          },
+          {
+            "wall_index": 2,
+            "wall_type": "inner",
+            "position_mm": 2000.0,
+            "width_mm": 900.0,
+            "height_mm": 2100.0,
+            "sill_height_mm": 0.0,
+            "door_type": "Hinged Single",
+            "material_name": "Metal - Aluminium"
+          },
+          {
+            "wall_index": 3,
+            "wall_type": "inner",
+            "position_mm": 2000.0,
+            "width_mm": 900.0,
+            "height_mm": 2100.0,
+            "sill_height_mm": 0.0,
+            "door_type": "Hinged Single",
+            "material_name": "Metal - Aluminium"
+          },
+          {
+            "wall_index": 4,
+            "wall_type": "inner",
+            "position_mm": 2000.0,
+            "width_mm": 900.0,
+            "height_mm": 2100.0,
+            "sill_height_mm": 0.0,
+            "door_type": "Hinged Single",
+            "material_name": "Metal - Aluminium"
+          },
+          {
+            "wall_index": 5,
+            "wall_type": "inner",
+            "position_mm": 2000.0,
+            "width_mm": 900.0,
+            "height_mm": 2100.0,
+            "sill_height_mm": 0.0,
+            "door_type": "Hinged Single",
+            "material_name": "Metal - Aluminium"
+          },
+          {
+            "wall_index": 6,
+            "wall_type": "inner",
+            "position_mm": 2000.0,
+            "width_mm": 900.0,
+            "height_mm": 2100.0,
+            "sill_height_mm": 0.0,
+            "door_type": "Hinged Single",
+            "material_name": "Metal - Aluminium"
+          },
+          {
+            "wall_index": 7,
+            "wall_type": "inner",
+            "position_mm": 2000.0,
+            "width_mm": 900.0,
+            "height_mm": 2100.0,
+            "sill_height_mm": 0.0,
+            "door_type": "Hinged Single",
+            "material_name": "Metal - Aluminium"
+          },
+          {
+            "wall_index": 8,
+            "wall_type": "inner",
+            "position_mm": 2000.0,
+            "width_mm": 900.0,
+            "height_mm": 2100.0,
+            "sill_height_mm": 0.0,
+            "door_type": "Hinged Single",
+            "material_name": "Metal - Aluminium"
+          },
+          {
+            "wall_index": 9,
+            "wall_type": "inner",
+            "position_mm": 2000.0,
+            "width_mm": 900.0,
+            "height_mm": 2100.0,
+            "sill_height_mm": 0.0,
+            "door_type": "Hinged Single",
+            "material_name": "Metal - Aluminium"
+          }
+        ],
+        "windows": [
+          {
+            "wall_index": 0,
+            "wall_type": "outer",
+            "position_mm": 3000.0,
+            "width_mm": 1200.0,
+            "height_mm": 1500.0,
+            "sill_height_mm": 900.0,
+            "window_type": "Casement",
+            "material_name": "Metal - Aluminium"
+          },
+          {
+            "wall_index": 0,
+            "wall_type": "outer",
+            "position_mm": 15000.0,
+            "width_mm": 1200.0,
+            "height_mm": 1500.0,
+            "sill_height_mm": 900.0,
+            "window_type": "Casement",
+            "material_name": "Metal - Aluminium"
+          },
+          {
+            "wall_index": 1,
+            "wall_type": "outer",
+            "position_mm": 3000.0,
+            "width_mm": 1200.0,
+            "height_mm": 1500.0,
+            "sill_height_mm": 900.0,
+            "window_type": "Casement",
+            "material_name": "Metal - Aluminium"
+          },
+          {
+            "wall_index": 1,
+            "wall_type": "outer",
+            "position_mm": 15000.0,
+            "width_mm": 1200.0,
+            "height_mm": 1500.0,
+            "sill_height_mm": 900.0,
+            "window_type": "Casement",
+            "material_name": "Metal - Aluminium"
+          },
+          {
+            "wall_index": 2,
+            "wall_type": "outer",
+            "position_mm": 3000.0,
+            "width_mm": 1200.0,
+            "height_mm": 1500.0,
+            "sill_height_mm": 900.0,
+            "window_type": "Casement",
+            "material_name": "Metal - Aluminium"
+          },
+          {
+            "wall_index": 2,
+            "wall_type": "outer",
+            "position_mm": 15000.0,
+            "width_mm": 1200.0,
+            "height_mm": 1500.0,
+            "sill_height_mm": 900.0,
+            "window_type": "Casement",
+            "material_name": "Metal - Aluminium"
+          },
+          {
+            "wall_index": 3,
+            "wall_type": "outer",
+            "position_mm": 3000.0,
+            "width_mm": 1200.0,
+            "height_mm": 1500.0,
+            "sill_height_mm": 900.0,
+            "window_type": "Casement",
+            "material_name": "Metal - Aluminium"
+          },
+          {
+            "wall_index": 3,
+            "wall_type": "outer",
+            "position_mm": 15000.0,
+            "width_mm": 1200.0,
+            "height_mm": 1500.0,
+            "sill_height_mm": 900.0,
+            "window_type": "Casement",
+            "material_name": "Metal - Aluminium"
+          }
+        ],
+        "slabs": [
+          {
+            "floor_index": 0,
+            "polygon": [
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 18000.0,
+                "y": 0.0
+              },
+              {
+                "x": 18000.0,
+                "y": 12000.0
+              },
+              {
+                "x": 0.0,
+                "y": 12000.0
+              }
+            ],
+            "thickness_mm": 150.0,
+            "z_mm": 0.0,
+            "building_material": "Concrete - Structural",
+            "top_surface": "Timber - Flooring",
+            "composite": ""
+          }
+        ],
+        "columns": [],
+        "beams": [],
+        "zones": [
+          {
+            "floor_index": 0,
+            "polygon": [
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 6000.0,
+                "y": 0.0
+              },
+              {
+                "x": 6000.0,
+                "y": 4000.0
+              },
+              {
+                "x": 0.0,
+                "y": 4000.0
+              }
+            ],
+            "room_name": "Living Room",
+            "room_number": "",
+            "category": "Living",
+            "floor_surface": "Timber - Flooring",
+            "wall_surface": "Paint - White",
+            "ceiling_surface": "Plasterboard"
+          },
+          {
+            "floor_index": 0,
+            "polygon": [
+              {
+                "x": 6000.0,
+                "y": 0.0
+              },
+              {
+                "x": 12000.0,
+                "y": 0.0
+              },
+              {
+                "x": 12000.0,
+                "y": 4000.0
+              },
+              {
+                "x": 6000.0,
+                "y": 4000.0
+              }
+            ],
+            "room_name": "Kitchen",
+            "room_number": "",
+            "category": "Kitchen",
+            "floor_surface": "Tile - Ceramic",
+            "wall_surface": "Paint - White",
+            "ceiling_surface": "Plasterboard"
+          },
+          {
+            "floor_index": 0,
+            "polygon": [
+              {
+                "x": 12000.0,
+                "y": 0.0
+              },
+              {
+                "x": 18000.0,
+                "y": 0.0
+              },
+              {
+                "x": 18000.0,
+                "y": 4000.0
+              },
+              {
+                "x": 12000.0,
+                "y": 4000.0
+              }
+            ],
+            "room_name": "Guest Bedroom",
+            "room_number": "",
+            "category": "Bedroom",
+            "floor_surface": "Carpet",
+            "wall_surface": "Paint - White",
+            "ceiling_surface": "Plasterboard"
+          },
+          {
+            "floor_index": 0,
+            "polygon": [
+              {
+                "x": 0.0,
+                "y": 4000.0
+              },
+              {
+                "x": 6000.0,
+                "y": 4000.0
+              },
+              {
+                "x": 6000.0,
+                "y": 8000.0
+              },
+              {
+                "x": 0.0,
+                "y": 8000.0
+              }
+            ],
+            "room_name": "Bathroom",
+            "room_number": "",
+            "category": "Bathroom",
+            "floor_surface": "Tile - Ceramic",
+            "wall_surface": "Paint - White",
+            "ceiling_surface": "Plasterboard"
+          },
+          {
+            "floor_index": 0,
+            "polygon": [
+              {
+                "x": 6000.0,
+                "y": 4000.0
+              },
+              {
+                "x": 12000.0,
+                "y": 4000.0
+              },
+              {
+                "x": 12000.0,
+                "y": 8000.0
+              },
+              {
+                "x": 6000.0,
+                "y": 8000.0
+              }
+            ],
+            "room_name": "Laundry",
+            "room_number": "",
+            "category": "Storage",
+            "floor_surface": "Tile - Ceramic",
+            "wall_surface": "Paint - White",
+            "ceiling_surface": "Plasterboard"
+          },
+          {
+            "floor_index": 0,
+            "polygon": [
+              {
+                "x": 12000.0,
+                "y": 4000.0
+              },
+              {
+                "x": 18000.0,
+                "y": 4000.0
+              },
+              {
+                "x": 18000.0,
+                "y": 8000.0
+              },
+              {
+                "x": 12000.0,
+                "y": 8000.0
+              }
+            ],
+            "room_name": "Garage",
+            "room_number": "",
+            "category": "Garage",
+            "floor_surface": "Concrete - Paving",
+            "wall_surface": "Paint - White",
+            "ceiling_surface": "Plasterboard"
+          },
+          {
+            "floor_index": 0,
+            "polygon": [
+              {
+                "x": 0.0,
+                "y": 8000.0
+              },
+              {
+                "x": 6000.0,
+                "y": 8000.0
+              },
+              {
+                "x": 6000.0,
+                "y": 12000.0
+              },
+              {
+                "x": 0.0,
+                "y": 12000.0
+              }
+            ],
+            "room_name": "Dining Area",
+            "room_number": "",
+            "category": "Living",
+            "floor_surface": "Timber - Flooring",
+            "wall_surface": "Paint - White",
+            "ceiling_surface": "Plasterboard"
+          },
+          {
+            "floor_index": 0,
+            "polygon": [
+              {
+                "x": 6000.0,
+                "y": 8000.0
+              },
+              {
+                "x": 12000.0,
+                "y": 8000.0
+              },
+              {
+                "x": 12000.0,
+                "y": 12000.0
+              },
+              {
+                "x": 6000.0,
+                "y": 12000.0
+              }
+            ],
+            "room_name": "Hallway",
+            "room_number": "",
+            "category": "Corridor",
+            "floor_surface": "Timber - Flooring",
+            "wall_surface": "Paint - White",
+            "ceiling_surface": "Plasterboard"
+          },
+          {
+            "floor_index": 0,
+            "polygon": [
+              {
+                "x": 12000.0,
+                "y": 8000.0
+              },
+              {
+                "x": 18000.0,
+                "y": 8000.0
+              },
+              {
+                "x": 18000.0,
+                "y": 12000.0
+              },
+              {
+                "x": 12000.0,
+                "y": 12000.0
+              }
+            ],
+            "room_name": "Patio",
+            "room_number": "",
+            "category": "Outdoor",
+            "floor_surface": "Concrete - Paving",
+            "wall_surface": "Paint - White",
+            "ceiling_surface": "Plasterboard"
+          }
+        ],
+        "stairs": [
+          {
+            "floor_index": 0,
+            "start": {
+              "x": 9000.0,
+              "y": 6000.0
+            },
+            "end": {
+              "x": 9000.0,
+              "y": 6000.0
+            },
+            "width_mm": 1000.0,
+            "total_height_mm": 3000.0,
+            "step_count": 16,
+            "tread_depth_mm": 280.0,
+            "direction": "up",
+            "material_name": "Concrete - Structural",
+            "tread_surface": "Tile - Ceramic"
+          }
+        ],
+        "curtain_walls": [],
+        "railings": [],
+        "dimensions": [],
+        "furniture": [
+          {
+            "library_part_name": "Sofa 001",
+            "generic_type": "",
+            "position": {
+              "x": 2000.0,
+              "y": 2000.0
+            },
+            "floor_index": 0,
+            "z_mm": 0.0,
+            "rotation_deg": 0.0,
+            "params": {}
+          },
+          {
+            "library_part_name": "Dining Table 001",
+            "generic_type": "",
+            "position": {
+              "x": 3000.0,
+              "y": 10000.0
+            },
+            "floor_index": 0,
+            "z_mm": 0.0,
+            "rotation_deg": 0.0,
+            "params": {}
+          },
+          {
+            "library_part_name": "Chair 001",
+            "generic_type": "",
+            "position": {
+              "x": 3200.0,
+              "y": 10200.0
+            },
+            "floor_index": 0,
+            "z_mm": 0.0,
+            "rotation_deg": 0.0,
+            "params": {}
+          },
+          {
+            "library_part_name": "TV Cabinet 001",
+            "generic_type": "",
+            "position": {
+              "x": 1000.0,
+              "y": 1000.0
+            },
+            "floor_index": 0,
+            "z_mm": 0.0,
+            "rotation_deg": 0.0,
+            "params": {}
+          },
+          {
+            "library_part_name": "Kitchen Cabinet 001",
+            "generic_type": "",
+            "position": {
+              "x": 7000.0,
+              "y": 2000.0
+            },
+            "floor_index": 0,
+            "z_mm": 0.0,
+            "rotation_deg": 0.0,
+            "params": {}
+          },
+          {
+            "library_part_name": "Kitchen Sink 001",
+            "generic_type": "",
+            "position": {
+              "x": 7500.0,
+              "y": 2000.0
+            },
+            "floor_index": 0,
+            "z_mm": 0.0,
+            "rotation_deg": 0.0,
+            "params": {}
+          },
+          {
+            "library_part_name": "Stove 001",
+            "generic_type": "",
+            "position": {
+              "x": 8000.0,
+              "y": 2000.0
+            },
+            "floor_index": 0,
+            "z_mm": 0.0,
+            "rotation_deg": 0.0,
+            "params": {}
+          },
+          {
+            "library_part_name": "Refrigerator 001",
+            "generic_type": "",
+            "position": {
+              "x": 8500.0,
+              "y": 2000.0
+            },
+            "floor_index": 0,
+            "z_mm": 0.0,
+            "rotation_deg": 0.0,
+            "params": {}
+          },
+          {
+            "library_part_name": "Bed 001",
+            "generic_type": "",
+            "position": {
+              "x": 15000.0,
+              "y": 2000.0
+            },
+            "floor_index": 0,
+            "z_mm": 0.0,
+            "rotation_deg": 0.0,
+            "params": {}
+          },
+          {
+            "library_part_name": "Wardrobe 001",
+            "generic_type": "",
+            "position": {
+              "x": 16000.0,
+              "y": 2000.0
+            },
+            "floor_index": 0,
+            "z_mm": 0.0,
+            "rotation_deg": 0.0,
+            "params": {}
+          },
+          {
+            "library_part_name": "Toilet 001",
+            "generic_type": "",
+            "position": {
+              "x": 2000.0,
+              "y": 6000.0
+            },
+            "floor_index": 0,
+            "z_mm": 0.0,
+            "rotation_deg": 0.0,
+            "params": {}
+          },
+          {
+            "library_part_name": "Bathtub 001",
+            "generic_type": "",
+            "position": {
+              "x": 3000.0,
+              "y": 6000.0
+            },
+            "floor_index": 0,
+            "z_mm": 0.0,
+            "rotation_deg": 0.0,
+            "params": {}
+          },
+          {
+            "library_part_name": "Washbasin 001",
+            "generic_type": "",
+            "position": {
+              "x": 4000.0,
+              "y": 6000.0
+            },
+            "floor_index": 0,
+            "z_mm": 0.0,
+            "rotation_deg": 0.0,
+            "params": {}
+          },
+          {
+            "library_part_name": "Bathroom Cabinet 001",
+            "generic_type": "",
+            "position": {
+              "x": 5000.0,
+              "y": 6000.0
+            },
+            "floor_index": 0,
+            "z_mm": 0.0,
+            "rotation_deg": 0.0,
+            "params": {}
+          },
+          {
+            "library_part_name": "Plant 001",
+            "generic_type": "",
+            "position": {
+              "x": 9000.0,
+              "y": 10000.0
+            },
+            "floor_index": 0,
+            "z_mm": 0.0,
+            "rotation_deg": 0.0,
+            "params": {}
+          },
+          {
+            "library_part_name": "Garden Chair 001",
+            "generic_type": "",
+            "position": {
+              "x": 15000.0,
+              "y": 10000.0
+            },
+            "floor_index": 0,
+            "z_mm": 0.0,
+            "rotation_deg": 0.0,
+            "params": {}
+          },
+          {
+            "library_part_name": "Garden Table 001",
+            "generic_type": "",
+            "position": {
+              "x": 16000.0,
+              "y": 10000.0
+            },
+            "floor_index": 0,
+            "z_mm": 0.0,
+            "rotation_deg": 0.0,
+            "params": {}
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "name": "First Floor",
+        "height_mm": 3000.0,
+        "outer_walls": [
+          {
+            "start": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "end": {
+              "x": 18000.0,
+              "y": 0.0
+            },
+            "height_mm": 3000.0,
+            "thickness_mm": 300.0,
+            "z_mm": 3000.0,
+            "floor_index": 0,
+            "reference_line": "center",
+            "building_material": "Brick - Common",
+            "composite": "",
+            "exterior_surface": "Brick - External",
+            "interior_surface": "Paint - White"
+          },
+          {
+            "start": {
+              "x": 18000.0,
+              "y": 0.0
+            },
+            "end": {
+              "x": 18000.0,
+              "y": 12000.0
+            },
+            "height_mm": 3000.0,
+            "thickness_mm": 300.0,
+            "z_mm": 3000.0,
+            "floor_index": 0,
+            "reference_line": "center",
+            "building_material": "Brick - Common",
+            "composite": "",
+            "exterior_surface": "Brick - External",
+            "interior_surface": "Paint - White"
+          },
+          {
+            "start": {
+              "x": 18000.0,
+              "y": 12000.0
+            },
+            "end": {
+              "x": 0.0,
+              "y": 12000.0
+            },
+            "height_mm": 3000.0,
+            "thickness_mm": 300.0,
+            "z_mm": 3000.0,
+            "floor_index": 0,
+            "reference_line": "center",
+            "building_material": "Brick - Common",
+            "composite": "",
+            "exterior_surface": "Brick - External",
+            "interior_surface": "Paint - White"
+          },
+          {
+            "start": {
+              "x": 0.0,
+              "y": 12000.0
+            },
+            "end": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "height_mm": 3000.0,
+            "thickness_mm": 300.0,
+            "z_mm": 3000.0,
+            "floor_index": 0,
+            "reference_line": "center",
+            "building_material": "Brick - Common",
+            "composite": "",
+            "exterior_surface": "Brick - External",
+            "interior_surface": "Paint - White"
+          }
+        ],
+        "inner_walls": [
+          {
+            "start": {
+              "x": 6000.0,
+              "y": 0.0
+            },
+            "end": {
+              "x": 6000.0,
+              "y": 4000.0
+            },
+            "height_mm": 3000.0,
+            "thickness_mm": 120.0,
+            "z_mm": 3000.0,
+            "floor_index": 0,
+            "reference_line": "center",
+            "building_material": "Concrete - Structural",
+            "composite": "",
+            "exterior_surface": "",
+            "interior_surface": "Paint - White"
+          },
+          {
+            "start": {
+              "x": 6000.0,
+              "y": 4000.0
+            },
+            "end": {
+              "x": 0.0,
+              "y": 4000.0
+            },
+            "height_mm": 3000.0,
+            "thickness_mm": 120.0,
+            "z_mm": 3000.0,
+            "floor_index": 0,
+            "reference_line": "center",
+            "building_material": "Concrete - Structural",
+            "composite": "",
+            "exterior_surface": "",
+            "interior_surface": "Paint - White"
+          },
+          {
+            "start": {
+              "x": 6000.0,
+              "y": 4000.0
+            },
+            "end": {
+              "x": 6000.0,
+              "y": 8000.0
+            },
+            "height_mm": 3000.0,
+            "thickness_mm": 120.0,
+            "z_mm": 3000.0,
+            "floor_index": 0,
+            "reference_line": "center",
+            "building_material": "Concrete - Structural",
+            "composite": "",
+            "exterior_surface": "",
+            "interior_surface": "Paint - White"
+          },
+          {
+            "start": {
+              "x": 6000.0,
+              "y": 8000.0
+            },
+            "end": {
+              "x": 0.0,
+              "y": 8000.0
+            },
+            "height_mm": 3000.0,
+            "thickness_mm": 120.0,
+            "z_mm": 3000.0,
+            "floor_index": 0,
+            "reference_line": "center",
+            "building_material": "Concrete - Structural",
+            "composite": "",
+            "exterior_surface": "",
+            "interior_surface": "Paint - White"
+          },
+          {
+            "start": {
+              "x": 6000.0,
+              "y": 8000.0
+            },
+            "end": {
+              "x": 6000.0,
+              "y": 12000.0
+            },
+            "height_mm": 3000.0,
+            "thickness_mm": 120.0,
+            "z_mm": 3000.0,
+            "floor_index": 0,
+            "reference_line": "center",
+            "building_material": "Concrete - Structural",
+            "composite": "",
+            "exterior_surface": "",
+            "interior_surface": "Paint - White"
+          },
+          {
+            "start": {
+              "x": 12000.0,
+              "y": 0.0
+            },
+            "end": {
+              "x": 12000.0,
+              "y": 4000.0
+            },
+            "height_mm": 3000.0,
+            "thickness_mm": 120.0,
+            "z_mm": 3000.0,
+            "floor_index": 0,
+            "reference_line": "center",
+            "building_material": "Concrete - Structural",
+            "composite": "",
+            "exterior_surface": "",
+            "interior_surface": "Paint - White"
+          },
+          {
+            "start": {
+              "x": 12000.0,
+              "y": 4000.0
+            },
+            "end": {
+              "x": 18000.0,
+              "y": 4000.0
+            },
+            "height_mm": 3000.0,
+            "thickness_mm": 120.0,
+            "z_mm": 3000.0,
+            "floor_index": 0,
+            "reference_line": "center",
+            "building_material": "Concrete - Structural",
+            "composite": "",
+            "exterior_surface": "",
+            "interior_surface": "Paint - White"
+          },
+          {
+            "start": {
+              "x": 12000.0,
+              "y": 4000.0
+            },
+            "end": {
+              "x": 12000.0,
+              "y": 8000.0
+            },
+            "height_mm": 3000.0,
+            "thickness_mm": 120.0,
+            "z_mm": 3000.0,
+            "floor_index": 0,
+            "reference_line": "center",
+            "building_material": "Concrete - Structural",
+            "composite": "",
+            "exterior_surface": "",
+            "interior_surface": "Paint - White"
+          },
+          {
+            "start": {
+              "x": 12000.0,
+              "y": 8000.0
+            },
+            "end": {
+              "x": 18000.0,
+              "y": 8000.0
+            },
+            "height_mm": 3000.0,
+            "thickness_mm": 120.0,
+            "z_mm": 3000.0,
+            "floor_index": 0,
+            "reference_line": "center",
+            "building_material": "Concrete - Structural",
+            "composite": "",
+            "exterior_surface": "",
+            "interior_surface": "Paint - White"
+          },
+          {
+            "start": {
+              "x": 12000.0,
+              "y": 8000.0
+            },
+            "end": {
+              "x": 12000.0,
+              "y": 12000.0
+            },
+            "height_mm": 3000.0,
+            "thickness_mm": 120.0,
+            "z_mm": 3000.0,
+            "floor_index": 0,
+            "reference_line": "center",
+            "building_material": "Concrete - Structural",
+            "composite": "",
+            "exterior_surface": "",
+            "interior_surface": "Paint - White"
+          }
+        ],
+        "doors": [
+          {
+            "wall_index": 0,
+            "wall_type": "outer",
+            "position_mm": 9000.0,
+            "width_mm": 900.0,
+            "height_mm": 2100.0,
+            "sill_height_mm": 0.0,
+            "door_type": "Hinged Single",
+            "material_name": "Metal - Aluminium"
+          },
+          {
+            "wall_index": 1,
+            "wall_type": "outer",
+            "position_mm": 2000.0,
+            "width_mm": 900.0,
+            "height_mm": 2100.0,
+            "sill_height_mm": 0.0,
+            "door_type": "Hinged Single",
+            "material_name": "Metal - Aluminium"
+          },
+          {
+            "wall_index": 0,
+            "wall_type": "inner",
+            "position_mm": 2000.0,
+            "width_mm": 900.0,
+            "height_mm": 2100.0,
+            "sill_height_mm": 0.0,
+            "door_type": "Hinged Single",
+            "material_name": "Metal - Aluminium"
+          },
+          {
+            "wall_index": 1,
+            "wall_type": "inner",
+            "position_mm": 2000.0,
+            "width_mm": 900.0,
+            "height_mm": 2100.0,
+            "sill_height_mm": 0.0,
+            "door_type": "Hinged Single",
+            "material_name": "Metal - Aluminium"
+          },
+          {
+            "wall_index": 2,
+            "wall_type": "inner",
+            "position_mm": 2000.0,
+            "width_mm": 900.0,
+            "height_mm": 2100.0,
+            "sill_height_mm": 0.0,
+            "door_type": "Hinged Single",
+            "material_name": "Metal - Aluminium"
+          },
+          {
+            "wall_index": 3,
+            "wall_type": "inner",
+            "position_mm": 2000.0,
+            "width_mm": 900.0,
+            "height_mm": 2100.0,
+            "sill_height_mm": 0.0,
+            "door_type": "Hinged Single",
+            "material_name": "Metal - Aluminium"
+          },
+          {
+            "wall_index": 4,
+            "wall_type": "inner",
+            "position_mm": 2000.0,
+            "width_mm": 900.0,
+            "height_mm": 2100.0,
+            "sill_height_mm": 0.0,
+            "door_type": "Hinged Single",
+            "material_name": "Metal - Aluminium"
+          },
+          {
+            "wall_index": 5,
+            "wall_type": "inner",
+            "position_mm": 2000.0,
+            "width_mm": 900.0,
+            "height_mm": 2100.0,
+            "sill_height_mm": 0.0,
+            "door_type": "Hinged Single",
+            "material_name": "Metal - Aluminium"
+          },
+          {
+            "wall_index": 6,
+            "wall_type": "inner",
+            "position_mm": 2000.0,
+            "width_mm": 900.0,
+            "height_mm": 2100.0,
+            "sill_height_mm": 0.0,
+            "door_type": "Hinged Single",
+            "material_name": "Metal - Aluminium"
+          },
+          {
+            "wall_index": 7,
+            "wall_type": "inner",
+            "position_mm": 2000.0,
+            "width_mm": 900.0,
+            "height_mm": 2100.0,
+            "sill_height_mm": 0.0,
+            "door_type": "Hinged Single",
+            "material_name": "Metal - Aluminium"
+          },
+          {
+            "wall_index": 8,
+            "wall_type": "inner",
+            "position_mm": 2000.0,
+            "width_mm": 900.0,
+            "height_mm": 2100.0,
+            "sill_height_mm": 0.0,
+            "door_type": "Hinged Single",
+            "material_name": "Metal - Aluminium"
+          },
+          {
+            "wall_index": 9,
+            "wall_type": "inner",
+            "position_mm": 2000.0,
+            "width_mm": 900.0,
+            "height_mm": 2100.0,
+            "sill_height_mm": 0.0,
+            "door_type": "Hinged Single",
+            "material_name": "Metal - Aluminium"
+          }
+        ],
+        "windows": [
+          {
+            "wall_index": 0,
+            "wall_type": "outer",
+            "position_mm": 3000.0,
+            "width_mm": 1200.0,
+            "height_mm": 1500.0,
+            "sill_height_mm": 900.0,
+            "window_type": "Casement",
+            "material_name": "Metal - Aluminium"
+          },
+          {
+            "wall_index": 0,
+            "wall_type": "outer",
+            "position_mm": 15000.0,
+            "width_mm": 1200.0,
+            "height_mm": 1500.0,
+            "sill_height_mm": 900.0,
+            "window_type": "Casement",
+            "material_name": "Metal - Aluminium"
+          },
+          {
+            "wall_index": 1,
+            "wall_type": "outer",
+            "position_mm": 3000.0,
+            "width_mm": 1200.0,
+            "height_mm": 1500.0,
+            "sill_height_mm": 900.0,
+            "window_type": "Casement",
+            "material_name": "Metal - Aluminium"
+          },
+          {
+            "wall_index": 1,
+            "wall_type": "outer",
+            "position_mm": 15000.0,
+            "width_mm": 1200.0,
+            "height_mm": 1500.0,
+            "sill_height_mm": 900.0,
+            "window_type": "Casement",
+            "material_name": "Metal - Aluminium"
+          },
+          {
+            "wall_index": 2,
+            "wall_type": "outer",
+            "position_mm": 3000.0,
+            "width_mm": 1200.0,
+            "height_mm": 1500.0,
+            "sill_height_mm": 900.0,
+            "window_type": "Casement",
+            "material_name": "Metal - Aluminium"
+          },
+          {
+            "wall_index": 2,
+            "wall_type": "outer",
+            "position_mm": 15000.0,
+            "width_mm": 1200.0,
+            "height_mm": 1500.0,
+            "sill_height_mm": 900.0,
+            "window_type": "Casement",
+            "material_name": "Metal - Aluminium"
+          },
+          {
+            "wall_index": 3,
+            "wall_type": "outer",
+            "position_mm": 3000.0,
+            "width_mm": 1200.0,
+            "height_mm": 1500.0,
+            "sill_height_mm": 900.0,
+            "window_type": "Casement",
+            "material_name": "Metal - Aluminium"
+          },
+          {
+            "wall_index": 3,
+            "wall_type": "outer",
+            "position_mm": 15000.0,
+            "width_mm": 1200.0,
+            "height_mm": 1500.0,
+            "sill_height_mm": 900.0,
+            "window_type": "Casement",
+            "material_name": "Metal - Aluminium"
+          }
+        ],
+        "slabs": [
+          {
+            "floor_index": 1,
+            "polygon": [
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 18000.0,
+                "y": 0.0
+              },
+              {
+                "x": 18000.0,
+                "y": 12000.0
+              },
+              {
+                "x": 0.0,
+                "y": 12000.0
+              }
+            ],
+            "thickness_mm": 150.0,
+            "z_mm": 3000.0,
+            "building_material": "Concrete - Structural",
+            "top_surface": "Carpet",
+            "composite": ""
+          }
+        ],
+        "columns": [],
+        "beams": [],
+        "zones": [
+          {
+            "floor_index": 1,
+            "polygon": [
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 6000.0,
+                "y": 0.0
+              },
+              {
+                "x": 6000.0,
+                "y": 4000.0
+              },
+              {
+                "x": 0.0,
+                "y": 4000.0
+              }
+            ],
+            "room_name": "Master Bedroom",
+            "room_number": "",
+            "category": "Bedroom",
+            "floor_surface": "Carpet",
+            "wall_surface": "Paint - White",
+            "ceiling_surface": "Plasterboard"
+          },
+          {
+            "floor_index": 1,
+            "polygon": [
+              {
+                "x": 6000.0,
+                "y": 0.0
+              },
+              {
+                "x": 12000.0,
+                "y": 0.0
+              },
+              {
+                "x": 12000.0,
+                "y": 4000.0
+              },
+              {
+                "x": 6000.0,
+                "y": 4000.0
+              }
+            ],
+            "room_name": "Ensuite",
+            "room_number": "",
+            "category": "Bathroom",
+            "floor_surface": "Tile - Ceramic",
+            "wall_surface": "Paint - White",
+            "ceiling_surface": "Plasterboard"
+          },
+          {
+            "floor_index": 1,
+            "polygon": [
+              {
+                "x": 12000.0,
+                "y": 0.0
+              },
+              {
+                "x": 18000.0,
+                "y": 0.0
+              },
+              {
+                "x": 18000.0,
+                "y": 4000.0
+              },
+              {
+                "x": 12000.0,
+                "y": 4000.0
+              }
+            ],
+            "room_name": "Walk-in Closet",
+            "room_number": "",
+            "category": "Storage",
+            "floor_surface": "Carpet",
+            "wall_surface": "Paint - White",
+            "ceiling_surface": "Plasterboard"
+          },
+          {
+            "floor_index": 1,
+            "polygon": [
+              {
+                "x": 0.0,
+                "y": 4000.0
+              },
+              {
+                "x": 6000.0,
+                "y": 4000.0
+              },
+              {
+                "x": 6000.0,
+                "y": 8000.0
+              },
+              {
+                "x": 0.0,
+                "y": 8000.0
+              }
+            ],
+            "room_name": "Bedroom 2",
+            "room_number": "",
+            "category": "Bedroom",
+            "floor_surface": "Carpet",
+            "wall_surface": "Paint - White",
+            "ceiling_surface": "Plasterboard"
+          },
+          {
+            "floor_index": 1,
+            "polygon": [
+              {
+                "x": 6000.0,
+                "y": 4000.0
+              },
+              {
+                "x": 12000.0,
+                "y": 4000.0
+              },
+              {
+                "x": 12000.0,
+                "y": 8000.0
+              },
+              {
+                "x": 6000.0,
+                "y": 8000.0
+              }
+            ],
+            "room_name": "Bedroom 3",
+            "room_number": "",
+            "category": "Bedroom",
+            "floor_surface": "Carpet",
+            "wall_surface": "Paint - White",
+            "ceiling_surface": "Plasterboard"
+          },
+          {
+            "floor_index": 1,
+            "polygon": [
+              {
+                "x": 12000.0,
+                "y": 4000.0
+              },
+              {
+                "x": 18000.0,
+                "y": 4000.0
+              },
+              {
+                "x": 18000.0,
+                "y": 8000.0
+              },
+              {
+                "x": 12000.0,
+                "y": 8000.0
+              }
+            ],
+            "room_name": "Family Bathroom",
+            "room_number": "",
+            "category": "Bathroom",
+            "floor_surface": "Tile - Ceramic",
+            "wall_surface": "Paint - White",
+            "ceiling_surface": "Plasterboard"
+          },
+          {
+            "floor_index": 1,
+            "polygon": [
+              {
+                "x": 0.0,
+                "y": 8000.0
+              },
+              {
+                "x": 6000.0,
+                "y": 8000.0
+              },
+              {
+                "x": 6000.0,
+                "y": 12000.0
+              },
+              {
+                "x": 0.0,
+                "y": 12000.0
+              }
+            ],
+            "room_name": "Study Nook",
+            "room_number": "",
+            "category": "Office",
+            "floor_surface": "Carpet",
+            "wall_surface": "Paint - White",
+            "ceiling_surface": "Plasterboard"
+          },
+          {
+            "floor_index": 1,
+            "polygon": [
+              {
+                "x": 6000.0,
+                "y": 8000.0
+              },
+              {
+                "x": 12000.0,
+                "y": 8000.0
+              },
+              {
+                "x": 12000.0,
+                "y": 12000.0
+              },
+              {
+                "x": 6000.0,
+                "y": 12000.0
+              }
+            ],
+            "room_name": "Hallway",
+            "room_number": "",
+            "category": "Corridor",
+            "floor_surface": "Carpet",
+            "wall_surface": "Paint - White",
+            "ceiling_surface": "Plasterboard"
+          },
+          {
+            "floor_index": 1,
+            "polygon": [
+              {
+                "x": 12000.0,
+                "y": 8000.0
+              },
+              {
+                "x": 18000.0,
+                "y": 8000.0
+              },
+              {
+                "x": 18000.0,
+                "y": 12000.0
+              },
+              {
+                "x": 12000.0,
+                "y": 12000.0
+              }
+            ],
+            "room_name": "Balcony",
+            "room_number": "",
+            "category": "Outdoor",
+            "floor_surface": "Concrete - Paving",
+            "wall_surface": "Paint - White",
+            "ceiling_surface": "Plasterboard"
+          }
+        ],
+        "stairs": [
+          {
+            "floor_index": 1,
+            "start": {
+              "x": 9000.0,
+              "y": 6000.0
+            },
+            "end": {
+              "x": 9000.0,
+              "y": 6000.0
+            },
+            "width_mm": 1000.0,
+            "total_height_mm": 3000.0,
+            "step_count": 16,
+            "tread_depth_mm": 280.0,
+            "direction": "down",
+            "material_name": "Concrete - Structural",
+            "tread_surface": "Tile - Ceramic"
+          }
+        ],
+        "curtain_walls": [],
+        "railings": [],
+        "dimensions": [],
+        "furniture": [
+          {
+            "library_part_name": "Bed 001",
+            "generic_type": "",
+            "position": {
+              "x": 2000.0,
+              "y": 2000.0
+            },
+            "floor_index": 1,
+            "z_mm": 3000.0,
+            "rotation_deg": 0.0,
+            "params": {}
+          },
+          {
+            "library_part_name": "Wardrobe 001",
+            "generic_type": "",
+            "position": {
+              "x": 3000.0,
+              "y": 2000.0
+            },
+            "floor_index": 1,
+            "z_mm": 3000.0,
+            "rotation_deg": 0.0,
+            "params": {}
+          },
+          {
+            "library_part_name": "Nightstand 001",
+            "generic_type": "",
+            "position": {
+              "x": 4000.0,
+              "y": 2000.0
+            },
+            "floor_index": 1,
+            "z_mm": 3000.0,
+            "rotation_deg": 0.0,
+            "params": {}
+          },
+          {
+            "library_part_name": "Desk 001",
+            "generic_type": "",
+            "position": {
+              "x": 5000.0,
+              "y": 2000.0
+            },
+            "floor_index": 1,
+            "z_mm": 3000.0,
+            "rotation_deg": 0.0,
+            "params": {}
+          },
+          {
+            "library_part_name": "Toilet 001",
+            "generic_type": "",
+            "position": {
+              "x": 8000.0,
+              "y": 2000.0
+            },
+            "floor_index": 1,
+            "z_mm": 3000.0,
+            "rotation_deg": 0.0,
+            "params": {}
+          },
+          {
+            "library_part_name": "Shower 001",
+            "generic_type": "",
+            "position": {
+              "x": 9000.0,
+              "y": 2000.0
+            },
+            "floor_index": 1,
+            "z_mm": 3000.0,
+            "rotation_deg": 0.0,
+            "params": {}
+          },
+          {
+            "library_part_name": "Washbasin 001",
+            "generic_type": "",
+            "position": {
+              "x": 10000.0,
+              "y": 2000.0
+            },
+            "floor_index": 1,
+            "z_mm": 3000.0,
+            "rotation_deg": 0.0,
+            "params": {}
+          },
+          {
+            "library_part_name": "Bathroom Cabinet 001",
+            "generic_type": "",
+            "position": {
+              "x": 11000.0,
+              "y": 2000.0
+            },
+            "floor_index": 1,
+            "z_mm": 3000.0,
+            "rotation_deg": 0.0,
+            "params": {}
+          },
+          {
+            "library_part_name": "Bed 001",
+            "generic_type": "",
+            "position": {
+              "x": 2000.0,
+              "y": 6000.0
+            },
+            "floor_index": 1,
+            "z_mm": 3000.0,
+            "rotation_deg": 0.0,
+            "params": {}
+          },
+          {
+            "library_part_name": "Wardrobe 001",
+            "generic_type": "",
+            "position": {
+              "x": 3000.0,
+              "y": 6000.0
+            },
+            "floor_index": 1,
+            "z_mm": 3000.0,
+            "rotation_deg": 0.0,
+            "params": {}
+          },
+          {
+            "library_part_name": "Nightstand 001",
+            "generic_type": "",
+            "position": {
+              "x": 4000.0,
+              "y": 6000.0
+            },
+            "floor_index": 1,
+            "z_mm": 3000.0,
+            "rotation_deg": 0.0,
+            "params": {}
+          },
+          {
+            "library_part_name": "Bed 001",
+            "generic_type": "",
+            "position": {
+              "x": 8000.0,
+              "y": 6000.0
+            },
+            "floor_index": 1,
+            "z_mm": 3000.0,
+            "rotation_deg": 0.0,
+            "params": {}
+          },
+          {
+            "library_part_name": "Wardrobe 001",
+            "generic_type": "",
+            "position": {
+              "x": 9000.0,
+              "y": 6000.0
+            },
+            "floor_index": 1,
+            "z_mm": 3000.0,
+            "rotation_deg": 0.0,
+            "params": {}
+          },
+          {
+            "library_part_name": "Nightstand 001",
+            "generic_type": "",
+            "position": {
+              "x": 10000.0,
+              "y": 6000.0
+            },
+            "floor_index": 1,
+            "z_mm": 3000.0,
+            "rotation_deg": 0.0,
+            "params": {}
+          },
+          {
+            "library_part_name": "Toilet 001",
+            "generic_type": "",
+            "position": {
+              "x": 14000.0,
+              "y": 6000.0
+            },
+            "floor_index": 1,
+            "z_mm": 3000.0,
+            "rotation_deg": 0.0,
+            "params": {}
+          },
+          {
+            "library_part_name": "Bathtub 001",
+            "generic_type": "",
+            "position": {
+              "x": 15000.0,
+              "y": 6000.0
+            },
+            "floor_index": 1,
+            "z_mm": 3000.0,
+            "rotation_deg": 0.0,
+            "params": {}
+          },
+          {
+            "library_part_name": "Washbasin 001",
+            "generic_type": "",
+            "position": {
+              "x": 16000.0,
+              "y": 6000.0
+            },
+            "floor_index": 1,
+            "z_mm": 3000.0,
+            "rotation_deg": 0.0,
+            "params": {}
+          },
+          {
+            "library_part_name": "Bathroom Cabinet 001",
+            "generic_type": "",
+            "position": {
+              "x": 17000.0,
+              "y": 6000.0
+            },
+            "floor_index": 1,
+            "z_mm": 3000.0,
+            "rotation_deg": 0.0,
+            "params": {}
+          },
+          {
+            "library_part_name": "Desk 001",
+            "generic_type": "",
+            "position": {
+              "x": 2000.0,
+              "y": 10000.0
+            },
+            "floor_index": 1,
+            "z_mm": 3000.0,
+            "rotation_deg": 0.0,
+            "params": {}
+          },
+          {
+            "library_part_name": "Office Chair 001",
+            "generic_type": "",
+            "position": {
+              "x": 3000.0,
+              "y": 10000.0
+            },
+            "floor_index": 1,
+            "z_mm": 3000.0,
+            "rotation_deg": 0.0,
+            "params": {}
+          },
+          {
+            "library_part_name": "Bookshelf 001",
+            "generic_type": "",
+            "position": {
+              "x": 4000.0,
+              "y": 10000.0
+            },
+            "floor_index": 1,
+            "z_mm": 3000.0,
+            "rotation_deg": 0.0,
+            "params": {}
+          },
+          {
+            "library_part_name": "Plant 001",
+            "generic_type": "",
+            "position": {
+              "x": 9000.0,
+              "y": 10000.0
+            },
+            "floor_index": 1,
+            "z_mm": 3000.0,
+            "rotation_deg": 0.0,
+            "params": {}
+          },
+          {
+            "library_part_name": "Garden Chair 001",
+            "generic_type": "",
+            "position": {
+              "x": 15000.0,
+              "y": 10000.0
+            },
+            "floor_index": 1,
+            "z_mm": 3000.0,
+            "rotation_deg": 0.0,
+            "params": {}
+          },
+          {
+            "library_part_name": "Garden Table 001",
+            "generic_type": "",
+            "position": {
+              "x": 16000.0,
+              "y": 10000.0
+            },
+            "floor_index": 1,
+            "z_mm": 3000.0,
+            "rotation_deg": 0.0,
+            "params": {}
+          }
+        ]
+      }
+    ],
+    "roofs": [
+      {
+        "floor_index": 1,
+        "polygon": [
+          {
+            "x": 0.0,
+            "y": 0.0
+          },
+          {
+            "x": 18000.0,
+            "y": 0.0
+          },
+          {
+            "x": 18000.0,
+            "y": 12000.0
+          },
+          {
+            "x": 0.0,
+            "y": 12000.0
+          }
+        ],
+        "angle_deg": 30.0,
+        "thickness_mm": 300.0,
+        "roof_type": "gable",
+        "z_mm": 6000.0,
+        "building_material": "Concrete - Structural",
+        "top_surface": "Roof Tile",
+        "composite": ""
+      }
+    ],
+    "site": {
+      "property_boundary": [
+        {
+          "x": -4000.0,
+          "y": -4000.0
+        },
+        {
+          "x": 22000.0,
+          "y": -4000.0
+        },
+        {
+          "x": 22000.0,
+          "y": 16000.0
+        },
+        {
+          "x": -4000.0,
+          "y": 16000.0
+        }
+      ],
+      "terrain_mesh": {
+        "floor_index": -1,
+        "polygon": [
+          {
+            "x": -4000.0,
+            "y": -4000.0
+          },
+          {
+            "x": 22000.0,
+            "y": -4000.0
+          },
+          {
+            "x": 22000.0,
+            "y": 16000.0
+          },
+          {
+            "x": -4000.0,
+            "y": 16000.0
+          }
+        ],
+        "z_mm": 0.0,
+        "building_material": "Earth",
+        "top_surface": "Grass",
+        "height_points": []
+      },
+      "setback_front_mm": 5000.0,
+      "setback_side_mm": 3000.0,
+      "setback_rear_mm": 5000.0
+    },
+    "outdoor_furniture": [
+      {
+        "library_part_name": "Garden Chair 001",
+        "generic_type": "",
+        "position": {
+          "x": 15000.0,
+          "y": 10000.0
+        },
+        "floor_index": 0,
+        "z_mm": 0.0,
+        "rotation_deg": 0.0,
+        "params": {}
+      },
+      {
+        "library_part_name": "Garden Table 001",
+        "generic_type": "",
+        "position": {
+          "x": 16000.0,
+          "y": 10000.0
+        },
+        "floor_index": 0,
+        "z_mm": 0.0,
+        "rotation_deg": 0.0,
+        "params": {}
+      }
+    ]
+  }
+}

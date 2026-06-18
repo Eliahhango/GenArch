@@ -1,0 +1,11 @@
+{
+    "addOnName": "AchicadAutomation",
+    "defaultLanguage": "INT",
+    "languages": ["INT"],
+    "version": "1.0.0",
+    "copyright": {
+        "name": "AchicadAutomation",
+        "year": "2026"
+    },
+    "description": "AI-driven element creation add-on for Archicad"
+}

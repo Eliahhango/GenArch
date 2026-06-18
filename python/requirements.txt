@@ -1,0 +1,5 @@
+archicad>=29.0
+requests>=2.28
+python-dotenv>=1.0
+ollama>=0.6
+pydantic>=2.0
