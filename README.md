@@ -1,9 +1,6 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Eliahhango/GenArch-/main/.github/banner-dark.svg">
-  <img alt="GenArch" src="https://raw.githubusercontent.com/Eliahhango/GenArch-/main/.github/banner-light.svg">
-</picture>
+# GenArch
 
-> **Gen**erative **Arch**itecture — AI-powered building generator for Graphisoft Archicad.
+**Gen**erative **Arch**itecture — AI-powered building generator for Graphisoft Archicad.
 
 Describe a building in plain English, and GenArch draws the complete 3D model — walls, doors, windows, slabs, columns, beams, roofs, rooms, stairs, furniture, and more — directly into a running Archicad instance.
 
