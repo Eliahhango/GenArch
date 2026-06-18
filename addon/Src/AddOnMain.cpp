@@ -1,5 +1,6 @@
 #include "APIEnvir.h"
 #include "ACAPinc.h"
+#include "DGModule.hpp"
 
 #include "CommandBase.hpp"
 #include "CreateWallsCommand.hpp"
@@ -17,6 +18,8 @@
 #include "CreateRailingsCommand.hpp"
 #include "CreateFurnitureCommand.hpp"
 #include "SetElementSurfacesCommand.hpp"
+#include "GenArchDialog.hpp"
+#include "GenArchResIDs.hpp"
 
 
 API_AddonType CheckEnvironment(API_EnvirParams* envir)
@@ -27,15 +30,28 @@ API_AddonType CheckEnvironment(API_EnvirParams* envir)
 }
 
 
+GSErrCode MenuCommandHandler(const API_MenuParams* menuParams)
+{
+    if (menuParams->menuItemRef.menuResID == GENARCH_MENU_STRINGSID) {
+        GenArchDialog dialog;
+        dialog.Invoke();
+    }
+    return NoError;
+}
+
+
 GSErrCode RegisterInterface(void)
 {
-    return NoError;
+    return ACAPI_MenuItem_RegisterMenu(GENARCH_MENU_STRINGSID, 32550, MenuCode_UserDef, MenuFlag_Default);
 }
 
 
 GSErrCode Initialize(void)
 {
-    GSErrCode err = ACAPI_AddOnAddOnCommunication_InstallAddOnCommandHandler(
+    GSErrCode err = ACAPI_MenuItem_InstallMenuHandler(GENARCH_MENU_STRINGSID, MenuCommandHandler);
+    if (err != NoError) return err;
+
+    err = ACAPI_AddOnAddOnCommunication_InstallAddOnCommandHandler(
         GS::NewOwned<AchicadAutomation::CreateWallsCommand>());
     if (err != NoError) return err;
 

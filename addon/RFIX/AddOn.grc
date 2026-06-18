@@ -1,4 +1,43 @@
+#include "GenArchResIDs.hpp"
+
 'MDID' 32500 "Add-On Identifier" {
 	1
 	1
+}
+
+'STR#' GENARCH_ABOUT_STRINGSID "Add-on Name and Description" {
+/* [  1] */		"GenArch"
+/* [  2] */		"AI-powered building generator — describe a building in plain English, and GenArch draws it in Archicad"
+}
+
+'STR#' GENARCH_MENU_STRINGSID "Menu" {
+/* [  1] */		"GenArch..."
+}
+
+'STR#' 32550 "Menu Prompt" {
+/* [  1] */		"Open GenArch AI Building Generator"
+}
+
+'GDLG'  GENARCH_DIALOG_RESID  Modal  0  0  420  300  "GenArch — AI Building Generator"  {
+ Button              320  260   85   24  LargePlain     "Generate"
+ Button              230  260   85   24  LargePlain     "Close"
+ LeftText             10   10  400   16  SmallPlain     "Describe your building:"
+ TextEdit             10   28  400   20  LargePlain     32000
+ LeftText             10   96  120   16  SmallPlain     "AI Backend:"
+ PopupControl        110   94  180   20  0  0
+ LeftText             10  120  400   16  SmallPlain     "Status:"
+ TextEdit             10  136  400   20  LargePlain     32000
+ LeftText             10  224  400   20  SmallPlain     "Tip: e.g. \"a 10x8m house with 2 bedrooms and a gable roof\""
+}
+
+'DLGH'  GENARCH_DIALOG_RESID  GenArchDialog {
+ 1   ""                    Button_Generate
+ 2   ""                    Button_Close
+ 3   ""                    LeftText_Label
+ 4   ""                    TextEdit_Description
+ 5   ""                    LeftText_Backend
+ 6   ""                    PopUp_Backend
+ 7   ""                    LeftText_Status
+ 8   ""                    TextEdit_Status
+ 9   ""                    LeftText_Tip
 }
