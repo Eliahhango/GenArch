@@ -7,6 +7,7 @@
 #include <cstdlib>
 #include <cstdio>
 #include <windows.h>
+#include <shlobj.h>
 
 
 GenArchDialog::GenArchDialog () :
@@ -177,9 +178,14 @@ void GenArchDialog::GenerateBuilding ()
     GS::UniString escapedDesc = description;
     escapedDesc.ReplaceAll ("\"", "\\\"");
 
+    wchar_t desktopPath[MAX_PATH];
+    if (!SUCCEEDED (SHGetFolderPathW (nullptr, CSIDL_DESKTOP, nullptr, 0, desktopPath)))
+        wcscpy_s (desktopPath, L"C:\\Users\\hango\\Desktop");
+    GS::UniString plnFile = GS::UniString (desktopPath) + L"\\genarch_building.pln";
+
     GS::UniString cmd = GS::UniString::Printf (
-        L"cmd /c \"cd /d \"%T\" && python main.py --backend %T --output-json \"%T\" \"%T\" 2>&1\"",
-        pythonDir, backend, tempFile, escapedDesc);
+        L"cmd /c \"cd /d \"%T\" && python main.py --backend %T --output-json \"%T\" --output-pln \"%T\" \"%T\" 2>&1\"",
+        pythonDir, backend, tempFile, plnFile, escapedDesc);
 
     INT exitCode = (INT)::_wsystem (cmd.ToUStr ().Get ());
 

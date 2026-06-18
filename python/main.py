@@ -178,6 +178,10 @@ Examples:
         help="Save the generated plan JSON to a file",
     )
     parser.add_argument(
+        "--output-pln", metavar="FILE",
+        help="Save the Archicad project to a .pln file after building",
+    )
+    parser.add_argument(
         "--input-json", metavar="FILE",
         help="Load a previously saved plan JSON instead of calling the AI",
     )
@@ -246,6 +250,10 @@ Examples:
         output_path.write_text(plan.model_dump_json(indent=2), encoding="utf-8")
         logger.info("Plan saved to %s", output_path)
 
+    output_pln = None
+    if args.output_pln:
+        output_pln = Path(args.output_pln)
+
     if args.dry_run:
         print("\nDry run complete. No elements created in Archicad.")
         return
@@ -262,6 +270,26 @@ Examples:
     print("Building...")
     result = builder.build(plan)
     print_build_result(result)
+
+    if output_pln:
+        try:
+            import json
+            from urllib.request import Request, urlopen
+            save_req = Request(f"http://127.0.0.1:{builder._conn.port}")
+            save_req.add_header("Content-Type", "application/json")
+            save_payload = json.dumps({
+                "command": "API.SaveProjectAs",
+                "parameters": {"path": str(output_pln)}
+            })
+            save_resp = urlopen(save_req, save_payload.encode("UTF-8"))
+            save_result = json.loads(save_resp.read())
+            if save_result.get("succeeded"):
+                print(f"\nProject saved to: {output_pln}")
+            else:
+                print(f"\nWarning: Could not save project via API. Save manually (Ctrl+S).")
+        except Exception as e:
+            print(f"\nWarning: Save failed ({e}). Save manually from Archicad (Ctrl+S).")
+
     builder.disconnect()
 
 
