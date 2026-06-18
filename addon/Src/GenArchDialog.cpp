@@ -40,7 +40,14 @@ GenArchDialog::GenArchDialog () :
     backendPopUp.SelectItem (1);
 
     LoadConfig ();
-    SetStatus ("Ready. Describe your building and click Generate.");
+
+    if (!HasConfig ()) {
+        descriptionEdit.Disable ();
+        generateButton.Disable ();
+        SetStatus ("FIRST-TIME SETUP: Enter your API key(s) above, click Save Settings, then describe your building.");
+    } else {
+        SetStatus ("Ready. Describe your building and click Generate.");
+    }
 }
 
 
@@ -87,9 +94,14 @@ void GenArchDialog::LoadConfig ()
 
 void GenArchDialog::SaveConfig ()
 {
-    GS::UniString ollama  = ollamaKeyEdit.GetText ();
-    GS::UniString deep    = deepseekKeyEdit.GetText ();
-    GS::UniString local   = localUrlEdit.GetText ();
+    GS::UniString ollama = ollamaKeyEdit.GetText ();
+    GS::UniString deep   = deepseekKeyEdit.GetText ();
+    GS::UniString local  = localUrlEdit.GetText ();
+
+    if (ollama.IsEmpty () && deep.IsEmpty () && local.IsEmpty ()) {
+        SetStatus ("Enter at least one API key or URL before saving.");
+        return;
+    }
 
     FILE* f = _wfopen (configFile.ToUStr (). Get (), L"wb");
     if (!f) {
@@ -104,7 +116,9 @@ void GenArchDialog::SaveConfig ()
     fwprintf (f, L"}\n");
     fclose (f);
 
-    SetStatus ("Settings saved to %APPDATA%\\GenArch\\config.json");
+    descriptionEdit.Enable ();
+    generateButton.Enable ();
+    SetStatus ("Settings saved! Now describe your building below and click Generate.");
 }
 
 
@@ -119,11 +133,6 @@ bool GenArchDialog::HasConfig ()
 
 void GenArchDialog::GenerateBuilding ()
 {
-    if (!HasConfig ()) {
-        SetStatus ("Please save your API configuration first (top section).");
-        return;
-    }
-
     GS::UniString description = descriptionEdit.GetText ();
     if (description.IsEmpty ()) {
         SetStatus ("Please enter a building description first.");
