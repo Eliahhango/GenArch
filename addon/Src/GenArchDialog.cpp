@@ -161,6 +161,13 @@ void GenArchDialog::GenerateBuilding ()
         }
     }
 
+    // Pass saved API keys as environment variables to the Python subprocess
+    SetEnvironmentVariableW (L"DEEPSEEK_API_KEY", deepseekKeyEdit.GetText ().ToUStr ().Get ());
+    SetEnvironmentVariableW (L"OLLAMA_API_KEY",   ollamaKeyEdit.GetText ().ToUStr ().Get ());
+    GS::UniString localUrl = localUrlEdit.GetText ();
+    if (!localUrl.IsEmpty ())
+        SetEnvironmentVariableW (L"OLLAMA_HOST", localUrl.ToUStr ().Get ());
+
     wchar_t tempPath[MAX_PATH];
     GetTempPathW (MAX_PATH, tempPath);
     wchar_t pidStr[32];
