@@ -10,23 +10,44 @@ class GenArchDialog : public DG::ModalDialog,
 {
 private:
     enum {
-        ButtonGenerateId    = 1,
-        ButtonCloseId       = 2,
-        EditTextDescriptionId = 4,
-        PopUpBackendId      = 6,
-        EditTextStatusId    = 8
+        ButtonGenerateId      = 1,
+        ButtonCloseId         = 2,
+        LeftTextConfigTitleId = 3,
+        LeftTextOllamaLabelId = 4,
+        TextEditOllamaKeyId   = 5,
+        LeftTextDeepseekLabelId = 6,
+        TextEditDeepseekKeyId = 7,
+        LeftTextLocalUrlLabelId = 8,
+        TextEditLocalUrlId    = 9,
+        ButtonSaveSettingsId  = 10,
+        LeftTextGenTitleId    = 11,
+        LeftTextDescLabelId   = 12,
+        TextEditDescriptionId = 13,
+        LeftTextBackendLabelId = 14,
+        PopUpBackendId        = 15,
+        LeftTextStatusLabelId = 16,
+        TextEditStatusId      = 17,
+        LeftTextTipId         = 18
     };
 
     DG::Button      generateButton;
     DG::Button      closeButton;
+    DG::TextEdit    ollamaKeyEdit;
+    DG::TextEdit    deepseekKeyEdit;
+    DG::TextEdit    localUrlEdit;
+    DG::Button      saveSettingsButton;
     DG::TextEdit    descriptionEdit;
     DG::PopUp       backendPopUp;
     DG::TextEdit    statusEdit;
 
-    void    GenerateBuilding (void);
+    GS::UniString   configDir;
+    GS::UniString   configFile;
+
+    void    LoadConfig ();
+    void    SaveConfig ();
+    bool    HasConfig ();
+    void    GenerateBuilding ();
     void    SetStatus (const GS::UniString& text);
-    bool    RunPythonAndGetJSON (const GS::UniString& description, const GS::UniString& backend, GS::UniString& outJSON);
-    bool    CreateElementsFromJSON (const GS::UniString& jsonStr);
 
     virtual void    ButtonClicked (const DG::ButtonClickEvent& ev) override;
 

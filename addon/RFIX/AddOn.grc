@@ -18,26 +18,44 @@
 /* [  1] */		"Open GenArch AI Building Generator"
 }
 
-'GDLG'  GENARCH_DIALOG_RESID  Modal  0  0  420  300  "GenArch — AI Building Generator"  {
- Button              320  260   85   24  LargePlain     "Generate"
- Button              230  260   85   24  LargePlain     "Close"
- LeftText             10   10  400   16  SmallPlain     "Describe your building:"
- TextEdit             10   28  400   20  LargePlain     32000
- LeftText             10   96  120   16  SmallPlain     "AI Backend:"
- PopupControl        110   94  180   20  0  0
- LeftText             10  120  400   16  SmallPlain     "Status:"
- TextEdit             10  136  400   20  LargePlain     32000
- LeftText             10  224  400   20  SmallPlain     "Tip: e.g. \"a 10x8m house with 2 bedrooms and a gable roof\""
+'GDLG'  GENARCH_DIALOG_RESID  Modal  0  0  420  500  "GenArch — AI Building Generator"  {
+ Button              320  460   85   24  LargePlain     "Generate"
+ Button              230  460   85   24  LargePlain     "Close"
+ LeftText             10   10  400   16  LargeBold      "AI Backend Configuration"
+ LeftText             10   32  400   16  SmallPlain     "Ollama Cloud API Key:"
+ TextEdit             10   50  390   20  LargePlain     256
+ LeftText             10   78  400   16  SmallPlain     "DeepSeek API Key:"
+ TextEdit             10   96  390   20  LargePlain     256
+ LeftText             10  124  400   16  SmallPlain     "Ollama Local Base URL:"
+ TextEdit             10  142  390   20  LargePlain     256
+ Button              320  168   85   24  SmallPlain     "Save Settings"
+ LeftText             10  200  400   16  LargeBold      "Building Generator"
+ LeftText             10  220  400   16  SmallPlain     "Describe your building:"
+ TextEdit             10  238  400   60  LargePlain     512
+ LeftText             10  306  120   16  SmallPlain     "AI Backend:"
+ PopupControl        110  304  180   20  0  0
+ LeftText             10  330  400   16  SmallPlain     "Status:"
+ TextEdit             10  346  400   80  LargePlain     512
+ LeftText             10  436  400   16  SmallPlain     "Tip: e.g. \"a 10x8m house with 2 bedrooms\""
 }
 
 'DLGH'  GENARCH_DIALOG_RESID  GenArchDialog {
  1   ""                    Button_Generate
  2   ""                    Button_Close
- 3   ""                    LeftText_Label
- 4   ""                    TextEdit_Description
- 5   ""                    LeftText_Backend
- 6   ""                    PopUp_Backend
- 7   ""                    LeftText_Status
- 8   ""                    TextEdit_Status
- 9   ""                    LeftText_Tip
+ 3   ""                    LeftText_ConfigTitle
+ 4   ""                    LeftText_OllamaLabel
+ 5   ""                    TextEdit_OllamaKey
+ 6   ""                    LeftText_DeepseekLabel
+ 7   ""                    TextEdit_DeepseekKey
+ 8   ""                    LeftText_LocalUrlLabel
+ 9   ""                    TextEdit_LocalUrl
+10   ""                    Button_SaveSettings
+11   ""                    LeftText_GenTitle
+12   ""                    LeftText_DescLabel
+13   ""                    TextEdit_Description
+14   ""                    LeftText_BackendLabel
+15   ""                    PopUp_Backend
+16   ""                    LeftText_StatusLabel
+17   ""                    TextEdit_Status
+18   ""                    LeftText_Tip
 }
