@@ -3,22 +3,23 @@ __pycache__/
 *.pyc
 *.pyo
 *.egg-info/
-dist/
-build/
+python/dist/
+python/build/
 *.egg
 .venv/
 venv/
 
 # C++ Build
 addon/Build/AC29_NMake/
+addon/Build/AC29/
 addon/Build/AC26_NMake/
 *.obj
 *.pdb
 *.ilk
 *.exp
 *.lib
-*.apx
-cmake-build-*/
+# Ignore .apx in build folders but track the distributed release
+addon/**/*.apx
 
 # DevKit (download separately)
 addon/Build/DevKit/
@@ -37,6 +38,3 @@ addon/Build/DevKit/
 # OS
 Thumbs.db
 .DS_Store
-
-# Temp files from downloads
-C:\Users\hango\AppData\Local\Temp\opencode\

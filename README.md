@@ -18,13 +18,25 @@ Describe a building in plain English, and GenArch draws the complete 3D model â€
 
 ## Quick Start
 
+### 1. Install the Add-On
+
+```powershell
+git clone https://github.com/Eliahhango/GenArch.git
+cd GenArch
+.\install.ps1
+```
+
+This copies the pre-built Add-On into Archicad's Add-Ons folder. Restart Archicad.
+
+### 2. Generate a Building
+
 ```powershell
 cd python
 pip install -r requirements.txt
 python main.py --backend ollama-cloud "1-bedroom cabin with gable roof"
 ```
 
-Requires: Python 3.10+, an API key, and Archicad 29 with the Add-On installed.
+Requires: Python 3.10+ and an API key (Ollama Cloud or DeepSeek).
 
 ## Features
 
